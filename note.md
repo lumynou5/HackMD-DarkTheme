@@ -828,7 +828,7 @@ tags: Theme
         margin-top: 5px;
     }
     
-    .markdown-body details > :last-child {
+    .markdown-body details > :not(summary):last-child {
         margin-bottom: 10px;
     }
     
